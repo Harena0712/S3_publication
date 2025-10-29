@@ -1,5 +1,5 @@
 <?php
-	include('./inc/fonction.php');
+	include('../inc/fonction.php');
 	header( "Content-Type: application/json"); 
 
 	$email = $_GET["email"];

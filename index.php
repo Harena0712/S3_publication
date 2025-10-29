@@ -12,7 +12,7 @@
     <form id="myForm">
         <input id="email" type="email" name="email" placeholder="Email">
         <input id="mdp" type="password" name="mdp" placeholder="Mot de passe">
-        <div class="retour"></div>
+        <p class="retour"></p>
         <input type="submit" value="Se connecter">
     </form>
 </body>
