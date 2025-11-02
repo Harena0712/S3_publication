@@ -1,20 +1,20 @@
 <?php
     include('connexion.php');
 
-    function login($email)
+    function login($email, $mdp)
     {
-        $sql = "SELECT email FROM publication_membre WHERE email = '%s'";
-        $sql = sprintf($sql,$email);
+        $sql = "SELECT Nom FROM publication_membre WHERE email = '%s' AND mdp = '%s'";
+        $sql = sprintf($sql, $email, $mdp);
         $requet = dbconnect()->query($sql);
         $rep_mail = $requet->fetch_assoc();
         if ($rep_mail) 
         {
-            return ;
+            return $rep_mail;
             fermerConnexion(dbconnect());
         }
         else
         {
-            return 1;
+            return "non";
             fermerConnexion(dbconnect());
         }
     }

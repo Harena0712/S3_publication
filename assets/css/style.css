@@ -1,0 +1,72 @@
+body{
+    /* background: linear-gradient(to right, #d0d1da, #afb3cd); */
+    background-color:#f7faff;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+.btn-outline-violet{
+    background-color: rgb(49, 1, 151);
+    color: white;
+}
+.btn-outline-violet:hover{
+    border: 1px solid rgb(49, 1, 151); 
+    color: rgb(49, 1, 151);
+}
+/* index */
+.fond{
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.514);
+    border-radius: 16px;
+    margin-top: 10%;
+    background: linear-gradient(to right,rgb(95 21 255),rgb(41, 0, 129));
+}
+.form{
+    border-radius: 16px;
+    background-color: white;
+}
+.form input[name="email"] ,  input[name="mdp"]{
+    outline: none;
+    border: none;
+    background-color: rgb(238, 238, 238);
+    border-radius: 16px;
+}
+.form button{
+    margin-left: 7%;
+}
+.error{
+    border-radius: 16px;
+    margin-left: 5%;  
+    border: 1px solid rgb(206, 0, 0);
+    color: rgb(193, 0, 0);
+}
+.form a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(49, 1, 151);
+    color: rgb(49, 1, 151);
+}
+/* accueil */
+.retour{
+    outline: none;
+    border: none;
+    background-color: rgb(223 223 223);
+    border-radius: 16px;
+}
+.cont_pub {
+    max-height: 200px;
+    overflow: auto;  
+}
+.cont_coms {
+    max-height: 100px;
+    overflow: auto;  
+}
+.input{
+    border: 2px solid rgb(49, 1, 151);
+    border-radius: 16px;
+}
+
+.input:active{
+    border: 2px solid rgb(49, 1, 151);
+    border-radius: 16px;
+}
